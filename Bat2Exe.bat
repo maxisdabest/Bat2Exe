@@ -4,7 +4,7 @@
 ;Rem Original Script https://github.com/npocmaka/batch.scripts/edit/master/hybrids/iexpress/bat2exeIEXP.bat
 ;echo(
 ;if "%~1" equ "" (
-    ;echo  Usage : Drag and Drop your batch file over this script:"%~nx0"  
+    ;echo  Usage : Drop your batch file over this script:"%~nx0"  
     ;Timeout /T 5 /nobreak>nul & Exit
 ;)
 ;set "target.exe=%__cd__%%~n1.exe"
@@ -12,7 +12,7 @@
 ;set "bat_name=%~nx1"
 ;set "bat_dir=%~dp1"
 ;Set "sed=%temp%\2exe.sed"
-;echo              Please  wait a while ...  Creating "%~n1.exe" ...
+;echo              Please  wait a sec ...  Creating "%~n1.exe" ...
 ;copy /y "%~f0" "%sed%" >nul
 ;(
     ;(echo()
