@@ -1,6 +1,6 @@
 ;@echo off
-;Title Converting batch scripts to file.exe with iexpress
-;Mode 75,3 & color 0A
+;Title Converting batch scripts to an exe file 
+;Mode 75,3 & color 4f
 ;Rem Original Script https://github.com/npocmaka/batch.scripts/edit/master/hybrids/iexpress/bat2exeIEXP.bat
 ;echo(
 ;if "%~1" equ "" (
